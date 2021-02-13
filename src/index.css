@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.close-modal{
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  padding: .5rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  border: none;
+
+}
+.form-container{
+  max-width: 400px;
+  background-color: #fff;
+  padding: 1rem;
+}
+input{
+  padding: .5rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.form-container button{
+  width: 100%;
+}
+.form-container label{
+  font-weight: 600;
+}
+form >*{
+  display: block;
+}
+.update-btn{
+  padding: .5rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.headline-text{
+  text-align: center;
+  margin-top: 20px;
+}
+table{
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+th, td{
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+.flip-btn{
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 300ms ease-in-out;
+  background-color: #4CAF50;
+  color: #fff;
+}
+.flip-btn:hover{
+  transform: scale(1.05, 1.05);
+}
